@@ -2,15 +2,26 @@ const express = require("express");
 const router = express.Router();
 const { AuthN} = require("../middlewares/auth");
 const { errorHandle } = require("../middlewares/ErrorHandling");
-const customerController = require("../controllers/customerController");
 require("dotenv").config();
 
-// Customer(Public)
+const customerController = require("../controllers/customerController")
+
+//router.[method]("/path",[xxxxController].[function])
+
+
 router.post("/register", customerController.register);
 router.post("/login", customerController.login);
+// router.get("/movies", movieController.getMovies)
+// router.get("/movies/:id", movieController.getMoviesDetail)
+// router.get("/showtimes", showtimeController.getShowtime)
+// router.get("/showtimes/:id", showtimeController.getShowtimeMovie)
 
 
 router.use(AuthN); //pembelian tiket harus autentifikasi login customer
+// router.post("/tickets/:id", ticketController.buyTicket)
+// router.get("/tickets", ticketController.getTickets)
+// router.get("/tickets/:id", ticketController.getTicketsDetail)
+// router.get("/transactions", transactionController.getTransaction)
 
 
 router.use(errorHandle);
