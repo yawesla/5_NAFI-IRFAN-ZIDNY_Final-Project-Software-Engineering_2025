@@ -4,7 +4,8 @@ const { AuthN} = require("../middlewares/auth");
 const { errorHandle } = require("../middlewares/ErrorHandling");
 require("dotenv").config();
 
-const customerController = require("../controllers/customerController")
+const customerController = require("../controllers/customerController.js")
+const ticketController = require("../controllers/ticketController.js")
 
 //router.[method]("/path",[xxxxController].[function])
 
@@ -18,10 +19,10 @@ router.post("/login", customerController.login);
 
 
 router.use(AuthN); //pembelian tiket harus autentifikasi login customer
-// router.post("/tickets/:id", ticketController.buyTicket)
-// router.get("/tickets", ticketController.getTickets)
-// router.get("/tickets/:id", ticketController.getTicketsDetail)
-// router.get("/transactions", transactionController.getTransaction)
+router.post("/tickets/:id", ticketController.buyTicket)
+router.get("/tickets", ticketController.getTickets)
+// router.get("/tickets/:id", ticketController.getTicketDetail)
+// router.get("/transactions", transactionController.getTransactions)
 
 
 router.use(errorHandle);
