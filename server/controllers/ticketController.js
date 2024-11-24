@@ -49,7 +49,7 @@ class ticketController {
     try {
       const data = await Ticket.findAll({
         attributes: {
-          exclude: ["createdAt", "updatedAt"], 
+          exclude: ["createdAt", "updatedAt"],
         },
         include: [
           {
@@ -58,24 +58,24 @@ class ticketController {
               exclude: ["createdAt", "updatedAt"],
             },
             where: {
-              userID: req.data.id, 
+              userID: req.data.id,
             },
             include: [
               {
                 model: User,
-                attributes: ["id","email"]
+                attributes: ["id", "email"],
               },
             ],
           },
           {
             model: Showtime,
             attributes: {
-              exclude: ["createdAt", "updatedAt"], 
+              exclude: ["createdAt", "updatedAt"],
             },
             include: [
               {
-                model: Movie, 
-                attributes: ["id","title"]
+                model: Movie,
+                attributes: ["id", "title"],
               },
             ],
           },
@@ -84,7 +84,43 @@ class ticketController {
 
       res.status(200).json({
         statusCode: 200,
-        data: data
+        data: data,
+      });
+    } catch (err) {
+      next(err);
+    }
+  }
+
+  static async getTicketDetail(req, res, next) {
+    try {
+      const id = +req.params.id;
+
+      const data = await Ticket.findOne({
+        attributes: {
+          exclude: ["createdAt", "updatedAt"],
+        },
+        where: {
+          id: id,
+        },
+        include: [
+          {
+            model: Showtime,
+            attributes: {
+              exclude: ["createdAt", "updatedAt"],
+            },
+            include: [
+              {
+                model: Movie,
+                attributes: ["id", "title"],
+              },
+            ],
+          },
+        ],
+      });
+
+      res.status(200).json({
+        statusCode: 200,
+        data: data,
       });
     } catch (err) {
       next(err);

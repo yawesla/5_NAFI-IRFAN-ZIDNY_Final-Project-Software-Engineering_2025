@@ -21,7 +21,7 @@ router.post("/login", customerController.login);
 router.use(AuthN); //pembelian tiket harus autentifikasi login customer
 router.post("/tickets/:id", ticketController.buyTicket)
 router.get("/tickets", ticketController.getTickets)
-// router.get("/tickets/:id", ticketController.getTicketDetail)
+router.get("/tickets/:id", ticketController.getTicketDetail)
 // router.get("/transactions", transactionController.getTransactions)
 
 

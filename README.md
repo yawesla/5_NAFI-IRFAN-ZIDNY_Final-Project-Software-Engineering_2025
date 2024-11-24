@@ -5,6 +5,7 @@ Tools:
 How to run server :
 - cd server
 - npm i
+- touch .env (SECRETKEY = RAHASIA)
 - npx sequelize-cli db:create
 - npx sequelize-cli db:migrate
 - npx sequelize-cli db:seed:all
