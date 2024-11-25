@@ -17,7 +17,6 @@ router.get("/movies", movieController.getAllMovies)
 router.get("/movies/:id([0-9]+)", movieController.getMovieById)
 router.get("/movies/search", movieController.searchMovies)
 router.get("/movies/:title([a-zA-Z0-9-_]+)", movieController.getMovieByTitle);
-
 // router.get("/showtimes", showtimeController.getShowtime)
 // router.get("/showtimes/:id", showtimeController.getShowtimeMovie)
 
