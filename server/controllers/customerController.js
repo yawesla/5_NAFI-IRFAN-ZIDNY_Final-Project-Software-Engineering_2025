@@ -1,7 +1,6 @@
 const { User } = require("../models");
 const { comparePassword } = require("../helpers/encryption");
 const { signToken } = require("../helpers/jwt");
-const axios = require("axios");
 
 class customerController {
   static async register(req, res, next) {

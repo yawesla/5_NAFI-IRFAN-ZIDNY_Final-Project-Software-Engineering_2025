@@ -1,0 +1,48 @@
+[
+    {
+      "title": "Avengers: Endgame",
+      "image_link": "https://example.com/avengers-endgame.jpg",
+      "synopsis": "After the devastating events of Avengers: Infinity War, the Avengers assemble once again to reverse Thanos' actions and restore balance to the universe.",
+      "director": "Anthony Russo, Joe Russo",
+      "genre": "Action, Adventure, Science Fiction",
+      "release_date": "2019-04-26T00:00:00Z",
+      "duration": 181
+    },
+    {
+      "title": "The Lion King",
+      "image_link": "https://example.com/the-lion-king.jpg",
+      "synopsis": "Simba, the lion cub who will grow up to be king, faces his destiny after the death of his father, Mufasa, and the betrayal of his uncle, Scar.",
+      "director": "Jon Favreau",
+      "genre": "Animation, Adventure, Drama",
+      "release_date": "2019-07-19T00:00:00Z",
+      "duration": 118
+    },
+    {
+      "title": "Joker",
+      "image_link": "https://example.com/joker.jpg",
+      "synopsis": "In Gotham City, a failed comic turns to a life of crime and chaos, assuming the identity of the infamous Joker. His descent into madness provides a new perspective on society's failure to address mental health.",
+      "director": "Todd Phillips",
+      "genre": "Crime, Drama, Thriller",
+      "release_date": "2019-10-04T00:00:00Z",
+      "duration": 122
+    },
+    {
+      "title": "Frozen II",
+      "image_link": "https://example.com/frozen-ii.jpg",
+      "synopsis": "Elsa, Anna, Kristoff, and Sven journey into the enchanted forest to uncover the origin of Elsa's powers and save their kingdom.",
+      "director": "Chris Buck, Jennifer Lee",
+      "genre": "Animation, Adventure, Comedy",
+      "release_date": "2019-11-22T00:00:00Z",
+      "duration": 103
+    },
+    {
+      "title": "Parasite",
+      "image_link": "https://example.com/parasite.jpg",
+      "synopsis": "A poor family schemes to become employed by a wealthy family, leading to unexpected consequences that unravel both families’ lives.",
+      "director": "Bong Joon-ho",
+      "genre": "Comedy, Drama, Thriller",
+      "release_date": "2019-05-30T00:00:00Z",
+      "duration": 132
+    }
+  ]
+  
