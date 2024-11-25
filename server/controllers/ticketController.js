@@ -38,7 +38,7 @@ class ticketController {
       res.status(201).json({
         statusCode: 201,
         data: created,
-        message: "created",
+        message: "Ticket is added",
       });
     } catch (err) {
       next(err);

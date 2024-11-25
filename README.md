@@ -10,5 +10,9 @@ How to run server :
 - npx sequelize-cli db:migrate
 - npx sequelize-cli db:seed:all
 - npx nodemon app.js
+if the message = "Example app listening on port 3000", then the app is running correctly.
 
-if the message = " Example app listening on port 3000 ", then the app is running correctly.
+How to run client :
+- cd client
+- npm i
+- npm start
