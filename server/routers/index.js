@@ -7,6 +7,7 @@ require("dotenv").config();
 const customerController = require("../controllers/customerController.js")
 const ticketController = require("../controllers/ticketController.js")
 const movieController = require("../controllers/movieController.js")
+const showtimeController = require("../controllers/showtimeController.js")
 
 //router.[method]("/path",[xxxxController].[function])
 
@@ -17,8 +18,9 @@ router.get("/movies", movieController.getAllMovies)
 router.get("/movies/:id([0-9]+)", movieController.getMovieById)
 router.get("/movies/search", movieController.searchMovies)
 router.get("/movies/:title([a-zA-Z0-9-_]+)", movieController.getMovieByTitle);
-// router.get("/showtimes", showtimeController.getShowtime)
-// router.get("/showtimes/:id", showtimeController.getShowtimeMovie)
+
+router.get("/showtimes", showtimeController.getShowtime)
+router.get("/showtimes/:id", showtimeController.getShowtimeByMovieID)
 
 router.use(AuthN); //pembelian tiket harus autentifikasi login customer
 router.post("/tickets/:id", ticketController.buyTicket)
