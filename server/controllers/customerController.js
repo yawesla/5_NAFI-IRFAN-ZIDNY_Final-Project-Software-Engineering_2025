@@ -17,7 +17,7 @@ class customerController {
       res.status(201).json({
         statusCode: 201,
         data: created,
-        message: "created",
+        message: "Register Success",
       });
     } catch (err) {
       next(err);
