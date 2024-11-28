@@ -18,14 +18,15 @@ class showtimeController{
     }
 
     static async getShowtimeByMovieID(req, res, next){
+        console.log('masuk sebelum try');
+        
         try{
-            const id = req.params.MovieID;
-            const showtimes = await Showtime.findOne({
+            const id = +req.params.movieID;
+            const showtimes = await Showtime.findAll({
                 where: {
                     movieID: id
                 }
             });
-
             if(showtimes){
                 res.status(200).json({
                     status: 200,

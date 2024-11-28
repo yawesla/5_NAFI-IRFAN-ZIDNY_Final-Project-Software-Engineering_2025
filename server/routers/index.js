@@ -20,7 +20,7 @@ router.get("/movies/search", movieController.searchMovies)
 router.get("/movies/:title([a-zA-Z0-9-_]+)", movieController.getMovieByTitle);
 
 router.get("/showtimes", showtimeController.getShowtime)
-router.get("/showtimes/:id", showtimeController.getShowtimeByMovieID)
+router.get("/showtimes/:movieID", showtimeController.getShowtimeByMovieID)
 
 router.use(AuthN); //pembelian tiket harus autentifikasi login customer
 router.post("/tickets/:id", ticketController.buyTicket)

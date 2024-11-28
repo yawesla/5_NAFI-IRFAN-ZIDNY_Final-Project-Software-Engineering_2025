@@ -30,7 +30,7 @@ class movieController {
                 },
                 where: {
                     id
-                }
+                },
             })
             if(movie){
                 res.status(200).json({
