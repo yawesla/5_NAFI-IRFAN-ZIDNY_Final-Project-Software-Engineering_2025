@@ -18,7 +18,6 @@ class showtimeController{
     }
 
     static async getShowtimeByMovieID(req, res, next){
-        console.log('masuk sebelum try');
         
         try{
             const id = +req.params.movieID;

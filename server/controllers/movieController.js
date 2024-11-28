@@ -23,7 +23,7 @@ class movieController {
 
     static async getMovieById(req, res, next){
         try {
-            const id = req.params.id
+            const id = +req.params.id
             const movie = await Movie.findOne({
                 attributes: {
                     exclude: ["createdAt","updatedAt"]
@@ -31,6 +31,11 @@ class movieController {
                 where: {
                     id
                 },
+                include: [
+                    {
+                      model: Showtime
+                    },
+                  ],
             })
             if(movie){
                 res.status(200).json({
