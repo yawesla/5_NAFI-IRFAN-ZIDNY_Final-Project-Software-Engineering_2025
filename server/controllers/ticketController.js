@@ -5,7 +5,10 @@ class ticketController {
   static async buyTicket(req, res, next) {
     try {
       //Milih Showtime
-      const { quantity, seat_number } = req.body;
+      const { start_time, quantity, seat_number } = req.body;
+      console.log("🚀 ~ ticketController ~ buyTicket ~ seat_number:", seat_number)
+      console.log("🚀 ~ ticketController ~ buyTicket ~ quantity:", quantity)
+      console.log("🚀 ~ ticketController ~ buyTicket ~ start_time:", start_time)
       const movieID = +req.params.id;
 
       //harusnya findOne
@@ -15,6 +18,7 @@ class ticketController {
         },
         where: {
           movieID,
+          start_time
         },
       });
 
@@ -75,7 +79,6 @@ class ticketController {
             include: [
               {
                 model: Movie,
-                attributes: ["id", "title"],
               },
             ],
           },

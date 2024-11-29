@@ -24,7 +24,13 @@ class showtimeController{
             const showtimes = await Showtime.findAll({
                 where: {
                     movieID: id
-                }
+                },
+                include: [
+                    {
+                      model: Movie,
+                      attributes: ["title", "image_link"],
+                    },
+                  ],
             });
             if(showtimes){
                 res.status(200).json({
