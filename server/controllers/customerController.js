@@ -44,14 +44,14 @@ class customerController {
       //4 - access token jwt
       const accessToken = signToken({
         id: user.id,
-        email: user.email,
+        name: user.name,
       });
 
       //(3)
       res.status(200).json({
         statusCode: 200,
         access_token: accessToken,
-        email,
+        name:user.name,
         role: user.role,
         message: "Logged in",
       });
