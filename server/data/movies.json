@@ -1,48 +1,110 @@
 [
-    {
+  {
       "title": "Avengers: Endgame",
-      "image_link": "https://example.com/avengers-endgame.jpg",
+      "image_link": "https://upload.wikimedia.org/wikipedia/id/0/0d/Avengers_Endgame_poster.jpg",
       "synopsis": "After the devastating events of Avengers: Infinity War, the Avengers assemble once again to reverse Thanos' actions and restore balance to the universe.",
       "director": "Anthony Russo, Joe Russo",
       "genre": "Action, Adventure, Science Fiction",
       "release_date": "2019-04-26T00:00:00Z",
       "duration": 181
-    },
-    {
+  },
+  {
       "title": "The Lion King",
-      "image_link": "https://example.com/the-lion-king.jpg",
+      "image_link": "https://m.media-amazon.com/images/M/MV5BMjIwMjE1Nzc4NV5BMl5BanBnXkFtZTgwNDg4OTA1NzM@._V1_FMjpg_UX1000_.jpg",
       "synopsis": "Simba, the lion cub who will grow up to be king, faces his destiny after the death of his father, Mufasa, and the betrayal of his uncle, Scar.",
       "director": "Jon Favreau",
       "genre": "Animation, Adventure, Drama",
       "release_date": "2019-07-19T00:00:00Z",
       "duration": 118
-    },
-    {
+  },
+  {
       "title": "Joker",
-      "image_link": "https://example.com/joker.jpg",
+      "image_link": "https://play-lh.googleusercontent.com/Wi2UwqsUCS3heo5-VYLI2v12zbiXKHJWih8ZCSrQzjxZA5PR8MFWVjcupL4hFekawjGst_sBsEF_ECdLkQ",
       "synopsis": "In Gotham City, a failed comic turns to a life of crime and chaos, assuming the identity of the infamous Joker. His descent into madness provides a new perspective on society's failure to address mental health.",
       "director": "Todd Phillips",
       "genre": "Crime, Drama, Thriller",
       "release_date": "2019-10-04T00:00:00Z",
       "duration": 122
-    },
-    {
+  },
+  {
       "title": "Frozen II",
-      "image_link": "https://example.com/frozen-ii.jpg",
+      "image_link": "https://upload.wikimedia.org/wikipedia/id/6/6d/Frozen_II_%282019_poster%29.jpg",
       "synopsis": "Elsa, Anna, Kristoff, and Sven journey into the enchanted forest to uncover the origin of Elsa's powers and save their kingdom.",
       "director": "Chris Buck, Jennifer Lee",
       "genre": "Animation, Adventure, Comedy",
       "release_date": "2019-11-22T00:00:00Z",
       "duration": 103
-    },
-    {
+  },
+  {
       "title": "Parasite",
-      "image_link": "https://example.com/parasite.jpg",
+      "image_link": "https://m.media-amazon.com/images/M/MV5BYjk1Y2U4MjQtY2ZiNS00OWQyLWI3MmYtZWUwNmRjYWRiNWNhXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
       "synopsis": "A poor family schemes to become employed by a wealthy family, leading to unexpected consequences that unravel both families’ lives.",
       "director": "Bong Joon-ho",
       "genre": "Comedy, Drama, Thriller",
       "release_date": "2019-05-30T00:00:00Z",
       "duration": 132
-    }
-  ]
-  
+  },
+  {
+      "title": "1917",
+      "image_link": "https://upload.wikimedia.org/wikipedia/id/a/ae/1917_film_poster.jpg",
+      "synopsis": "Two young British soldiers during World War I are tasked with delivering a message that could save 1,600 men.",
+      "director": "Sam Mendes",
+      "genre": "Drama, War",
+      "release_date": "2019-12-25T00:00:00Z",
+      "duration": 119
+  },
+  {
+      "title": "Knives Out",
+      "image_link": "https://m.media-amazon.com/images/M/MV5BZDU5ZTRkYmItZjg0Mi00ZTQwLThjMWItNWM3MTMxMzVjZmVjXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+      "synopsis": "When a renowned crime novelist is found dead, Detective Benoit Blanc investigates the case in a twist-filled story.",
+      "director": "Rian Johnson",
+      "genre": "Comedy, Crime, Mystery",
+      "release_date": "2019-11-27T00:00:00Z",
+      "duration": 130
+  },
+  {
+      "title": "Toy Story 4",
+      "image_link": "https://upload.wikimedia.org/wikipedia/id/4/4c/Toy_Story_4_poster.jpg",
+      "synopsis": "Woody, Buzz, and the gang embark on a road trip adventure with a new friend, Forky.",
+      "director": "Josh Cooley",
+      "genre": "Animation, Adventure, Comedy",
+      "release_date": "2019-06-21T00:00:00Z",
+      "duration": 100
+  },
+  {
+      "title": "Ford v Ferrari",
+      "image_link": "https://m.media-amazon.com/images/M/MV5BOTBjNTEyNjYtYjdkNi00YzE5LTljYzUtZjVlYmYwZmJmZWYxXkEyXkFqcGc@._V1_.jpg",
+      "synopsis": "The story of visionary car designer Carroll Shelby and driver Ken Miles as they build a car for Ford to challenge Ferrari.",
+      "director": "James Mangold",
+      "genre": "Drama, Action",
+      "release_date": "2019-11-15T00:00:00Z",
+      "duration": 152
+  },
+  {
+      "title": "Ad Astra",
+      "image_link": "https://m.media-amazon.com/images/M/MV5BOGRhOGNjZjEtNTU2Ni00MDlmLWI3MWEtNzc1OGE2ZmEwZGNhXkEyXkFqcGc@._V1_.jpg",
+      "synopsis": "Astronaut Roy McBride undertakes a dangerous mission to uncover the truth about his missing father and a mysterious threat.",
+      "director": "James Gray",
+      "genre": "Adventure, Drama, Science Fiction",
+      "release_date": "2019-09-20T00:00:00Z",
+      "duration": 124
+  },
+  {
+      "title": "Us",
+      "image_link": "https://m.media-amazon.com/images/M/MV5BMzhkMjFkN2YtODU2Ni00YWYwLWExN2MtOWNjZmQxM2U4YTM5XkEyXkFqcGc@._V1_.jpg",
+      "synopsis": "A family's serene beach vacation turns to chaos when doppelgängers begin to terrorize them.",
+      "director": "Jordan Peele",
+      "genre": "Horror, Thriller",
+      "release_date": "2019-03-22T00:00:00Z",
+      "duration": 116
+  },
+  {
+      "title": "Spider-Man: Far From Home",
+      "image_link": "https://m.media-amazon.com/images/M/MV5BMzNhNTE0NWQtN2E1Ny00NjcwLTg1YTctMGY1NmMwODJmY2NmXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+      "synopsis": "Peter Parker faces new challenges in Europe when mysterious elemental creatures appear and a hero named Mysterio offers help.",
+      "director": "Jon Watts",
+      "genre": "Action, Adventure, Science Fiction",
+      "release_date": "2019-07-02T00:00:00Z",
+      "duration": 129
+  }
+]

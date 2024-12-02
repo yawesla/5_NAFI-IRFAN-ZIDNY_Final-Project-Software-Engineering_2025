@@ -13,6 +13,6 @@ How to run server :
 if the message = "Example app listening on port 3000", then the app is running correctly.
 
 How to run client :
-- cd client
+- cd Binuskop
 - npm i
 - npm start

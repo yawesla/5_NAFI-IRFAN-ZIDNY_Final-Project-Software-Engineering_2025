@@ -1,0 +1,11 @@
+Nama Kelompok = Kelompok5
+Anggota Kelompok:
+1. 2702339961 – Nafi Irfan Zidny (Ketua)
+2. 2602106175 – Oktavianus (Wakil)
+3. 2702217043 - Stanic Dylan
+4. 2702217043 - Christine Kosasih
+5. 2702274495 - Kevin Gabriel Wiharja
+
+Nama Aplikasi = BinusKop
+Tentang Aplikasi :
+Binuskop hadir sebagai solusi digital terkini untuk para pecinta film di Indonesia, dimana Binuskop dirancang khusus untuk memudahkan masyarakat dalam menikmati pengalaman cinema yang modern. Platform kami menghadirkan antarmuka yang intuitif dan proses pemesanan tiket yang cepat, aman, dan nyaman.
